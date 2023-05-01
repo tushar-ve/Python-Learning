@@ -72,9 +72,9 @@
 #    print(key, ":", d[key])
 
 
-ip_str=input("Enter a String: ")
+# ip_str=input("Enter a String: ")
 
-ip_str.casefold() #csefold() make the string in the lower case
+# ip_str.casefold() #csefold() make the string in the lower case
 
-count={x:sum([1 for char in ip_str if char ==x])for x in 'aeiou'}
-print(count)
+# count={x:sum([1 for char in ip_str if char ==x])for x in 'aeiou'}
+# print(count)

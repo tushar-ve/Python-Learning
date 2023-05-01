@@ -6,9 +6,13 @@
 class Employee:
     def __init__(self):
         self.name = "HArry1"
-        self.__age = 14
+        self.__age = 14 # private property of object
 
 a = Employee()
 print(a.name) #Here we accessing the part of the Employee class
 
-print(a._Employee__age)
+print(a._Employee__age) # aaaaccessing that private variable
+
+
+
+# Let's take an example of the 

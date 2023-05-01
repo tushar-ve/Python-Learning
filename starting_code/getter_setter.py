@@ -5,10 +5,13 @@ class Myclass:
     def show(self):
         print(f"Value is {self._value}")
 
+# This is behave like a getter 
     @property
     def value(self):
         return self._value
     
+
+# This is setter 
     @value.setter
     def value(self, new_value):
         self._value = new_value/10

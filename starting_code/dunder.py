@@ -12,3 +12,6 @@ class Employee:
     
     def __str__(self):
         return f"The employee name is {self.name}"
+    
+p = Employee("Sachin")
+print(p.__str__())

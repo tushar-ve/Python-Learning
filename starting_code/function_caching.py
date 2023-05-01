@@ -18,10 +18,10 @@ print("done for 20")
 print(fx(5))
 print("done of 5")
 
-print(fx(6))
+print(fx(6)) 
 print("Done for 6")
 
 print(fx(7))
-print("done for 7")
+print("done for  7")
 
 

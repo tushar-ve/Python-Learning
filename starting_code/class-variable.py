@@ -44,7 +44,7 @@ class Laptop:
 
 
 lap1 = Laptop("HP", "tukm909", 56789)
-lap2 = Laptop("Dell", "kjkw09ksl", 89738)
+lap2 = Laptop("Dell", "kjkw09ksl", 89738) 
 
 lap2.discount_app = 50
 print(lap2.__dict__)
